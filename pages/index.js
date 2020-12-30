@@ -37,6 +37,14 @@ export default function Home() {
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-4KPLWBPH6X"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-4KPLWBPH6X');
+      </script>
     </div>
   )
 }
